@@ -22,13 +22,11 @@ public class Operacoes {
             case 1:
                 CriarPost();
                 break;
-
-            case 3:
-                System.exit(0);
-
             case 2:
                 ListarPosts();
                 break;
+            case 3:
+                System.exit(0);
 
             default:
                 System.out.println("Opção inválida.");

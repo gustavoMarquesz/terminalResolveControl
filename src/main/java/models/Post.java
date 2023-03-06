@@ -30,7 +30,7 @@ public class Post extends  Pessoa{
         return  "\n -----------------"+"\n A empresa, de procuração jurídica " + this.getEmpresaNome() +" de CNPJ: " + this.getEmpresaCnpj()+ " e procuração física "+
                 this.getRazaoFisicaNome()+ " de CPF: "+ this.getRazaoFisicaCPF() +" foi feito por: "+ this.getNome()+"." +
                 "\n"+ "dia: "+ this.getDiaCadastro()+" |" + " mês: " + this.getMesCadastro()+" |"+ " ano: "+ this.getAnoCadastro()+" |"
-                +"No vencimento dia: " +(this.getDiaCadastro()+ " mês: "+ this.getMesCadastro() + " ano: "+ (this.getAnoCadastro()+1)+ "\n -----------------");
+                +"Vencimento do certificado dia: " +(this.getDiaCadastro()+ " mês: "+ this.getMesCadastro() + " ano: "+ (this.getAnoCadastro()+1)+ "\n -----------------");
     }
 
 }
